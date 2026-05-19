@@ -23,11 +23,11 @@
   <script>
     function calculateAgeOnLoad() {
         // Pre-set the birthday to April 7, 1954
-        var birthday = new Date('1954-04-07');
+        let birthday = new Date('1954-04-07');
 
         // Calculate the age
-        var today = new Date();
-        var age = today.getFullYear() - birthday.getFullYear();
+        let today = new Date();
+        let age = today.getFullYear() - birthday.getFullYear();
 
         // Check if birthday hasn't occurred yet this year
         if (
@@ -38,7 +38,7 @@
         }
 
         // Display the result
-        var resultElement = document.getElementById('result');
+        let resultElement = document.getElementById('result');
         resultElement.textContent = 'Age: ' + age;
     }
   </script>
