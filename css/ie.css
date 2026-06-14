@@ -1,11 +1,13 @@
 #page{
-	width:958px;
+	max-width:958px;
+	width:100%;
 	margin:0 auto;
 	border:1px solid #e0e0e0;
 }
 /*------------------------------ HEADER ------------------------------*/
 #header{
-	width:960px;
+	max-width:960px;
+	width:100%;
 }
 #connect{
  *margin-right:30px;
@@ -16,17 +18,25 @@
 }
 /*------------------------------ BODY ------------------------------*/
 #body{
-	width:960px;
+	max-width:960px;
+	width:100%;
 }
 #favorites a{
 	top:34px;
 }
 #featured h4{
-	width:120px;
+	max-width:120px;
+	width:100%;
 }
 #articles{
-	width:960px;
+	max-width:960px;
+	width:100%;
 }
 #contents{
 	height:900px;
+}
+
+/* IE responsive overrides */
+@media (max-width: 992px){
+	#page, #header, #body, #articles{ width:100% !important; max-width:none !important; }
 }
