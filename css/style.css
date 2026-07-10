@@ -238,7 +238,7 @@ span.author{
 	text-decoration:none;
 }
 #blogs{
-	float:left;
+	float:center;
 	width:100%;
 	max-width:400px;
 	box-sizing:border-box;
